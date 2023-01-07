@@ -1,5 +1,5 @@
-﻿{
-   "traits": [
+{
+  "traits": [
     {
       "canAdd": false,
       "canRemove": false,
@@ -30,14 +30,14 @@
       "degree": 0,
       "description": "Timmy gets a rush from hurting people, and never minds the sight of blood or death. he is four times as likely to start a social fight as others.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "TKUtils.Trait.MeditationEnabled"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "Morbid meditation focus type allowed."
+          "TKUtils.Trait.MeditationEnabled"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -88,7 +88,7 @@
       "degree": 0,
       "description": "Timmy has no empathy. The suffering of others doesn't bother him at all. he doesn't mind if others are butchered, left unburied, imprisoned, or sold to slavery - unless it affects him. he also feels no mood boost from socializing.",
       "stats": [
-        "Morbid meditation focus type allowed.",
+        "TKUtils.Trait.MeditationEnabled",
         "x50% global certainty loss factor"
       ],
       "conflicts": [],
@@ -96,7 +96,7 @@
       "data": {
         "conflicts": [],
         "stats": [
-          "Morbid meditation focus type allowed.",
+          "TKUtils.Trait.MeditationEnabled",
           "x50% global certainty loss factor"
         ],
         "canBypassLimit": false,
@@ -116,14 +116,14 @@
       "degree": 0,
       "description": "Timmy was taught that eating human meat is wrong and horrible. But one time, long ago, he tried it... and he liked it.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "TKUtils.Trait.MeditationEnabled"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "Morbid meditation focus type allowed."
+          "TKUtils.Trait.MeditationEnabled"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -210,7 +210,7 @@
       "degree": 0,
       "description": "Timmy likes to fight up close and personal. his accuracy is greatly increased in melee combat, but he'll be very unhappy if asked to carry a ranged weapon.",
       "stats": [
-        "Shoot frenzy inspiration disabled.",
+        "TKUtils.Trait.Inspiration",
         "+4 melee",
         "-4 shooting",
         "+4.0 melee hit chance"
@@ -228,7 +228,7 @@
           "wimp"
         ],
         "stats": [
-          "Shoot frenzy inspiration disabled.",
+          "TKUtils.Trait.Inspiration",
           "+4 melee",
           "-4 shooting",
           "+4.0 melee hit chance"
@@ -250,7 +250,7 @@
       "degree": 0,
       "description": "For Timmy, there's something exciting about getting hurt. he doesn't know why, he's just wired differently.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "TKUtils.Trait.MeditationEnabled"
       ],
       "conflicts": [
         "wimp"
@@ -261,7 +261,7 @@
           "wimp"
         ],
         "stats": [
-          "Morbid meditation focus type allowed."
+          "TKUtils.Trait.MeditationEnabled"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -330,7 +330,7 @@
       "degree": 0,
       "description": "For Timmy, it's degrading to have a less impressive bedroom than someone else. he gets a mood loss if any colonist has a more impressive bedroom.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "TKUtils.Trait.MeditationEnabled"
       ],
       "conflicts": [
         "ascetic",
@@ -343,7 +343,7 @@
           "greedy"
         ],
         "stats": [
-          "Morbid meditation focus type allowed."
+          "TKUtils.Trait.MeditationEnabled"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -362,8 +362,8 @@
       "degree": 0,
       "description": "Timmy has forsaken physical comforts and enjoyments in favor of a simple, pure lifestyle. he will become unhappy if he has a bedroom that's too impressive. he also dislikes fancy food and prefers to eat raw. he never judges others by their appearance.",
       "stats": [
-        "Artistic meditation focus type disabled.",
-        "Minimal meditation focus type allowed.",
+        "TKUtils.Trait.MeditationDisabled",
+        "TKUtils.Trait.MeditationEnabled",
         "x50% global certainty loss factor"
       ],
       "conflicts": [
@@ -379,8 +379,8 @@
           "gourmand"
         ],
         "stats": [
-          "Artistic meditation focus type disabled.",
-          "Minimal meditation focus type allowed.",
+          "TKUtils.Trait.MeditationDisabled",
+          "TKUtils.Trait.MeditationEnabled",
           "x50% global certainty loss factor"
         ],
         "canBypassLimit": false,
@@ -510,16 +510,16 @@
       "degree": 0,
       "description": "Timmy loves fire. he will never extinguish fires, and will occasionally go on random fire starting sprees. he will be happy around flames, and happier when wielding an incendiary weapon.",
       "stats": [
-        "Flame meditation focus type allowed.",
-        "Only mental break \"FireStartingSpree\" allowed."
+        "TKUtils.Trait.MeditationEnabled",
+        "TKUtils.Trait.MentalBreak"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "Flame meditation focus type allowed.",
-          "Only mental break \"FireStartingSpree\" allowed."
+          "TKUtils.Trait.MeditationEnabled",
+          "TKUtils.Trait.MentalBreak"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -538,7 +538,7 @@
       "degree": 0,
       "description": "Timmy is weak and cowardly. Even a little pain will immobilize him.",
       "stats": [
-        "-60% pain shock threshold",
+        "-50% pain shock threshold",
         "x200% global certainty loss factor"
       ],
       "conflicts": [
@@ -552,7 +552,7 @@
           "masochist"
         ],
         "stats": [
-          "-60% pain shock threshold",
+          "-50% pain shock threshold",
           "x200% global certainty loss factor"
         ],
         "canBypassLimit": false,
@@ -658,14 +658,14 @@
       "degree": 0,
       "description": "Timmy has no need to experience the outdoors or light. he will never feel cooped up or get cabin fever, no matter how long he stays inside, and is not bothered by darkness.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "TKUtils.Trait.MeditationEnabled"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "Morbid meditation focus type allowed."
+          "TKUtils.Trait.MeditationEnabled"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -828,14 +828,14 @@
       "degree": 0,
       "description": "Timmy feels alienated and misunderstood by other human beings. he will have a constant mood debuff, but gain a chance (50%) to get a creativity inspiration after a mental break.",
       "stats": [
-        "Morbid meditation focus type allowed."
+        "TKUtils.Trait.MeditationEnabled"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "Morbid meditation focus type allowed."
+          "TKUtils.Trait.MeditationEnabled"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -854,7 +854,7 @@
       "degree": 0,
       "description": "Timmy's life revolves around food. he gets hungry quickly, and will occasionally be overcome with the urge to eat ravenously, even when not hungry.",
       "stats": [
-        "Only mental break \"Binging_Food\" allowed.",
+        "TKUtils.Trait.MentalBreak",
         "+4 cooking"
       ],
       "conflicts": [
@@ -866,7 +866,7 @@
           "ascetic"
         ],
         "stats": [
-          "Only mental break \"Binging_Food\" allowed.",
+          "TKUtils.Trait.MentalBreak",
           "+4 cooking"
         ],
         "canBypassLimit": false,
@@ -912,7 +912,7 @@
       "degree": -1,
       "description": "Timmy is always falling behind the group whenever he goes anywhere.",
       "stats": [
-        "Go frenzy inspiration disabled.",
+        "TKUtils.Trait.Inspiration",
         "-0.20 move speed"
       ],
       "conflicts": [],
@@ -920,7 +920,7 @@
       "data": {
         "conflicts": [],
         "stats": [
-          "Go frenzy inspiration disabled.",
+          "TKUtils.Trait.Inspiration",
           "-0.20 move speed"
         ],
         "canBypassLimit": false,
@@ -1036,16 +1036,16 @@
       "degree": -1,
       "description": "Timmy abhors the idea of gaining pleasure from chemicals. he strictly avoids alcohol and recreational drugs.",
       "stats": [
-        "Binging on drug mental state disabled.",
-        "Binging on drug mental state disabled."
+        "TKUtils.Trait.MentalState",
+        "TKUtils.Trait.MentalState"
       ],
       "conflicts": [],
       "bypassLimit": false,
       "data": {
         "conflicts": [],
         "stats": [
-          "Binging on drug mental state disabled.",
-          "Binging on drug mental state disabled."
+          "TKUtils.Trait.MentalState",
+          "TKUtils.Trait.MentalState"
         ],
         "canBypassLimit": false,
         "customName": false,
@@ -1808,7 +1808,7 @@
       },
       "description": "A baseline human, mostly unmodified by gene engineering and mostly unchanged by evolutionary pressures on non-Earth planets.",
       "defName": "Human",
-      "enabled": true,
+      "enabled": false,
       "name": "human",
       "price": 2917
     }
