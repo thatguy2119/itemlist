@@ -77,7 +77,7 @@
 	},
 	{
 		"abr": "shortcircuit",
-		"price": 1150,
+		"price": 5000,
 		"karmatype": "Bad"
 	},
 	{
@@ -111,6 +111,11 @@
 		"karmatype": "Good"
 	},
 	{
+		"abr": "wandererjoins",
+		"price": 500,
+		"karmatype": "Good"
+	},
+	{
 		"abr": "resourcepodcrash",
 		"price": 750,
 		"karmatype": "Good"
@@ -122,7 +127,7 @@
 	},
 	{
 		"abr": "orbitaltraderarrival",
-		"price": 1000,
+		"price": 750,
 		"karmatype": "Good"
 	},
 	{
@@ -137,7 +142,7 @@
 	},
 	{
 		"abr": "psychicdrone",
-		"price": 2000,
+		"price": 2850,
 		"karmatype": "Bad"
 	},
 	{
@@ -306,5 +311,5 @@
 		"karmatype": "Good"
 	}
 	],
-	"total": 61
+	"total": 62
 }
